@@ -1,0 +1,23 @@
+
+.timeline-wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  .timeline-wrapper img{
+    width: 150px;
+    align-self: center;
+  }
+  .timeline-wrapper form{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 350px;
+  }
+  .timeline-wrapper textarea{
+    height: 40px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+    padding-top: 5px;
+    padding-left: 10px;
+}
